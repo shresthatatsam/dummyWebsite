@@ -85,6 +85,17 @@ a:hover {
 
 /* hero section */
 
+/* hero section responsive*/
+
+@media only screen and (max-width: 600px) {
+ .displayoverimage img,.video{
+   width: 300px;
+   margin-top:30px ;
+}
+
+}
+/* hero section responsive*/
+
 
 
  
