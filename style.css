@@ -1,0 +1,90 @@
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* navbar style */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    box-shadow: 5px 3px #edeff0 ; 
+}
+/* .wsui-shadow-on-scroll {
+    height: 80px;
+    top: -16px;
+    box-shadow: 5px 3px #edeff0 ; 
+  } */
+.navcontacts {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+.image{
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.navcontacts>div,
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: #556270;
+    line-height: 30px;
+}
+.nav-item:hover .nav-link ,
+.navcontacts>div:hover,
+a:hover {
+    color: #1969ba;
+}
+
+/* navbar style */
+
+
+/* hero section */
+.heading h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero-paragraph{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #744c66;
+}
+
+.stars{
+    display: flex;
+}
+.star img,.star{
+    width: 85px;
+    margin-right:10px;
+    margin-left:10px;
+    line-height: 31px;
+}
+
+.Excellent{
+    line-height: 31px;
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+
+.trustpilot{
+    font-size: 12px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.displayoverimage img,.video{
+    background-color: #556270;
+    position: absolute;
+    margin-top: -65px;
+}
+
+/* hero section */
+
+
+
+ 
