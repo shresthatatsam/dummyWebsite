@@ -78,22 +78,14 @@ a:hover {
     margin-left: 10px;
 }
 .displayoverimage img{
-     width: 600px;
+     width: 550px;
      position: absolute;
-     top: 0;
+     top: -40px;
 
 }
-
-/* .row{
-    
-    margin-right: 0px !important;
-    margin-left: 0px !important;
-} */
-.video{
-  
+.topcontainer{
    position: relative;
-    margin-right: 20px;
-    /* width: 500px; */
+  
 }
 
 .first{
@@ -101,6 +93,7 @@ a:hover {
 }
 .second{
     position: relative;
+    margin-top: 50px;
    
 }
 /* hero section */
@@ -117,19 +110,62 @@ a:hover {
 .second{
     margin-top: 80px; 
 }
+
+
 } 
+
+
+
+@media only screen and (max-width: 1600px) and (min-width:770px )
+
+{
+section,.successContent  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+ 
+}
+section>div {
+    width: 23%;   
+}
+
+.successContent>div{
+width: 30%;
+}
+
+} 
+
 
 /* hero section responsive*/
 
-
-
 /* feature */
-
-section ul {
-    display: flex;
-    
-    flex-wrap: wrap;
-  gap: 10px;
+section img{
+    width: 40px;
 }
 
- 
+/* success content */
+
+.successHeading h1{
+    text-align: center;
+}
+.successContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f8fa;
+    margin-top: 150px;
+}
+.successContainer>div{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* success content */
+/* feature */
+
+@media (min-width:281px) and (max-width:508px) {
+    .successContainer>div{
+        margin-left: 15px;
+        margin-right: 0px;
+    }}
+
